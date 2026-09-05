@@ -32,8 +32,7 @@ function Login() {
         console.log("Saved Token:", token);
 
         // Dashboard URL
-        const dashboardURL = "https://tradeflow-2-gkl1.onrender.com/login";
-
+        const dashboardURL = `https://trade-flow-n98f-one.vercel.app?token=${token}`;
         console.log("Redirect URL:", dashboardURL);
 
         alert(response.data.message);
