@@ -13,7 +13,7 @@ function Signup() {
   }
 
   try {
-    const response = await axios.post("http://localhost:3002/signup", {
+    const response = await axios.post("https://tradeflow-2-gkl1.onrender.com/signup",  {
       name,
       email,
       password,

@@ -32,7 +32,7 @@ function Login() {
         console.log("Saved Token:", token);
 
         // Dashboard URL
-        const dashboardURL = `http://localhost:3001?token=${token}`;
+        const dashboardURL = "https://tradeflow-2-gkl1.onrender.com/login";
 
         console.log("Redirect URL:", dashboardURL);
 
